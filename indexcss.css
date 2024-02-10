@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    @font-face {
+        font-family: 'Playfair Display';
+        src: url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    }
+
+
+}
+.header {
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 19%, rgba(11, 121, 9, 1) 54%, rgba(0, 212, 255, 1) 80%);
+    display: flex;
+    align-items: center; /* Vertical alignment */
+}
+
+.heading {
+    margin-left: 20px; /* Add some space on the left */
+    text-align: left; /* Align the text to the left */
+}
+
+
+.greet {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 15px; /* Reduce the margin between elements */
+    padding-top: 25px;
+}
+
+.greet2 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 900;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 19%, rgba(11, 121, 9, 1) 54%, rgba(0, 212, 255, 1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 15px; /* Reduce the margin between elements */
+}
+
+
+
+/* text area */
+
+.container {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Fill the full height of the viewport */
+    padding-top: 15px;
+}
+
+.text-area-container {
+    width: 80%; /* Set the width of the container */
+}
+
+.text-area {
+    width: 100%; /* Set width to 100% */
+    resize: none; /* Prevent resizing */
+    box-sizing: border-box; /* Include padding and border in the total width and height */
+    padding: 10px; /* Add padding for better visual */
+}
+
+
+
+/* button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh; /* Full height of the viewport */
+}
+
+.custom-button {
+    padding: 10px 20px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 19%, rgba(11, 121, 9, 1) 54%, rgba(0, 212, 255, 1) 80%);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.custom-button:hover {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.8) 19%, rgba(11, 121, 9, 0.8) 54%, rgba(0, 212, 255, 0.8) 80%);
+}
